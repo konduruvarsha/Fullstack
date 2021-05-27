@@ -1,0 +1,80 @@
+<html>
+<head>
+<style>
+
+
+body, html {
+	height: 50%;
+	box-sizing: border-box;
+    text-align: center;
+}
+
+form {
+	float: center;
+	margin: 12px;
+	max-width: 600px;
+	padding: 43px;
+	top: 60%;
+	left: 80%;
+	background-color: Hotpink;
+	font-family: "Arial";
+	display: inline-block;
+}
+
+input[type=text], input[type=password] {
+	width: 90%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+}
+b{
+color:white;
+}
+h1{
+color:white;
+}
+
+button, input[type=reset] {
+	background-color: DarkTurquoise;
+	color: black;
+	padding: 14px 20px;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+	font-family: Arial;
+}
+
+body {
+	margin: 0;
+	font-family: Impact, Impact, Impact;
+}
+
+</style>
+</head>
+<body>
+
+
+	<form >
+		<center>
+			<h1>SignUp</h1>
+			
+             <label for="fname"><b>First Name:</b></label> 
+             <input type="text" placeholder="Enter Name" required><br> 
+             <label for="lname"><b>Last Name:</b></label> 
+             <input type="text" placeholder="Enter Last Name" required><br> 
+             <label for="email"><b>Email:</b></label> 
+             <input type="text" placeholder="Enter Email" required><br> 
+             <label for="psw"><b>Password:</b></label> 
+             <input type="password" placeholder="Enter Password" required><br> 
+			<button type="submit">Register</button>
+			<br>
+			<div class="container signin">
+				<p>
+					Already have an account? <a href="login.html">Login </a>
+				</p>
+			</div>
+		</center>
+	</form>
+</body>
+</html>
